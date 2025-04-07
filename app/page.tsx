@@ -84,7 +84,7 @@ export default function Home() {
               alt="SuperMetro Logo"
               width={197}
               height={49}
-              className="h-10 w-10"
+              className="h-[49px] w-[197px]"
             />
           </div>
           <nav className="hidden md:flex items-center gap-6">
@@ -1003,7 +1003,7 @@ export default function Home() {
                   alt="SuperMetro Logo"
                   width={197}
                   height={49}
-                  className="h-10 w-10"
+                  className="h-[49px] w-[197px]"
                 />
               </div>
               <p className="text-sm text-gray-300">Moving beyond boundaries, one ride at a time!</p>
