@@ -785,7 +785,7 @@ export default function Home() {
       <Card className="overflow-hidden border-0">
         <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }}>
           <Image
-            src={`/metrobus${i}.jpeg`}
+            src={`/assets/metrobus${i}.jpeg`}
             alt={`SuperMetro Vehicle ${i}`}
             width={300}
             height={200}
