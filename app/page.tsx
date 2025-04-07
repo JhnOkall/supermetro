@@ -903,8 +903,7 @@ export default function Home() {
                 <Card>
                   <CardContent className="p-0">
                     <div className="aspect-video overflow-hidden rounded-lg">
-                      <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.277444357076!2d36.81992!3d-1.28315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d62d4fccdd%3A0xd51591efb95d742f!2sNairobi%20City%2C%20Kenya!5e0!3m2!1sen!2sus!4v1649361661397!5m2!1sen!2sus"
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.816979252983!2d36.82229477487975!3d-1.2836929987041037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1129e33cd85b%3A0x7d45aa024519e647!2sNjengi%20House!5e0!3m2!1sen!2sus!4v1744062399359!5m2!1sen!2sus"
                         width="100%"
                         height="100%"
                         style={{ border: 0 }}
