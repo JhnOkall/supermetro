@@ -354,24 +354,25 @@ export default function Home() {
                 className="w-full max-w-5xl mx-auto"
               >
                 <CarouselContent>
-                  {["Isuzu", "Hextech", "BasiGo", "Direct Line"].map((partner, index) => (
-                    <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
-                      <div className="p-1">
-                        <Card className="border-[#f9ac6f]/20">
-                          <CardContent className="flex items-center justify-center p-6">
-                            <Image
-                              src={`/placeholder.svg?height=80&width=160&text=${partner}`}
-                              alt={`${partner} Logo`}
-                              width={160}
-                              height={80}
-                              className="h-20 w-40 object-contain"
-                            />
-                          </CardContent>
-                        </Card>
-                      </div>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
+  {["isuzu", "hextech", "basigo", "directline"].map((partner, index) => (
+    <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
+      <div className="p-1">
+        <Card className="border-[#f9ac6f]/20">
+          <CardContent className="flex items-center justify-center p-6">
+            <Image
+              src={`/assets/partners/${partner}.png`}
+              alt={`${partner} Logo`}
+              width={160}
+              height={80}
+              className="h-20 w-40 object-contain"
+            />
+          </CardContent>
+        </Card>
+      </div>
+    </CarouselItem>
+  ))}
+</CarouselContent>
+
                 <CarouselPrevious />
                 <CarouselNext />
               </Carousel>
@@ -779,26 +780,23 @@ export default function Home() {
                 className="w-full max-w-5xl mx-auto"
               >
                 <CarouselContent>
-                  {[1, 2, 3, 4, 5, 6].map((i) => (
-                    <CarouselItem key={i} className="md:basis-1/2 lg:basis-1/3 pl-4">
-                      <Card className="overflow-hidden border-0">
-                        <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }}>
-                          <Image
-                            src={`/placeholder.svg?height=200&width=300&text=Vehicle ${i}`}
-                            alt={`SuperMetro Vehicle ${i}`}
-                            width={300}
-                            height={200}
-                            className="h-[200px] w-full object-cover rounded-t-lg"
-                          />
-                        </motion.div>
-                        <CardContent className="p-4">
-                          <h3 className="font-medium text-[#787ab5]">SuperMetro Bus {i}</h3>
-                          <p className="text-sm text-gray-500">Modern and comfortable</p>
-                        </CardContent>
-                      </Card>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
+  {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
+    <CarouselItem key={i} className="md:basis-1/2 lg:basis-1/3 pl-4">
+      <Card className="overflow-hidden border-0">
+        <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }}>
+          <Image
+            src={`/metrobus${i}.jpeg`}
+            alt={`SuperMetro Vehicle ${i}`}
+            width={300}
+            height={200}
+            className="h-[200px] w-full object-cover rounded-t-lg"
+          />
+        </motion.div>
+      </Card>
+    </CarouselItem>
+  ))}
+</CarouselContent>
+
                 <CarouselPrevious className="left-0" />
                 <CarouselNext className="right-0" />
               </Carousel>
