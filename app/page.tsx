@@ -80,13 +80,12 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between py-4">
           <div className="flex items-center gap-2">
             <Image
-              src="/assets/supermetro.png?height=40&width=40"
+              src="/assets/supermetro.png?height=49&width=197"
               alt="SuperMetro Logo"
-              width={40}
-              height={40}
+              width={197}
+              height={49}
               className="h-10 w-10"
             />
-            <span className="text-xl font-bold text-[#787ab5]">SuperMetro</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="#services" className="text-sm font-medium hover:text-[#f9ac6f] flex items-center gap-1">
@@ -1000,13 +999,12 @@ export default function Home() {
             <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <Image
-                  src="/assets/supermetro.png?height=40&width=40"
+                  src="/assets/supermetro.png?height=49&width=197"
                   alt="SuperMetro Logo"
-                  width={40}
-                  height={40}
+                  width={197}
+                  height={49}
                   className="h-10 w-10"
                 />
-                <span className="text-xl font-bold">SuperMetro</span>
               </div>
               <p className="text-sm text-gray-300">Moving beyond boundaries, one ride at a time!</p>
             </div>
